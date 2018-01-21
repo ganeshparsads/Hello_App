@@ -1,0 +1,42 @@
+{
+  "name": "hello_app",
+  "version": "1.0.0",
+  "description": "beginner app for react and flask experience.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p --progress --config webpack.config.js",
+    "dev-build": "webpack --progress -d --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress -d --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshparsads/Hello_App.git"
+  },
+  "author": "gani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganeshparsads/Hello_App/issues"
+  },
+  "homepage": "https://github.com/ganeshparsads/Hello_App#readme",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "jquery": "^3.3.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.3",
+    "react-bootstrap": "^0.32.0"
+  }
+}
